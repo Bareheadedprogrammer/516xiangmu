@@ -1,0 +1,61 @@
+.context{
+    
+    top: 2rem;
+    left: 8%;
+    position: relative;
+    overflow: hidden;
+}
+.context>div{
+    font-size: 0.3rem;
+    margin-bottom: 1rem;
+}
+.context>div>a{
+    color: #f00;
+}
+.context>ul>li{
+    float: left;
+    position: relative;
+    margin-top: 1rem;
+}
+.context>ul>.non{
+    margin-left: 2rem;
+}
+.context video{
+    width: 13.5rem;
+    
+}
+.context>ul>li>a>.pic{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+}
+.context>ul>li>a>.pic>i{
+    position: absolute;
+    left: 50%;
+    margin-left: -1rem;
+    top: 50%;
+    margin-top: -1rem;
+    z-index: 999;
+    font-size: 2rem;
+}
+.context>ul>li>a{
+    color: #000;
+}
+.context>ul>li>a>.pic>img{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+}
+.context>ul>li>a>div{
+    font-size: 0.3rem;
+}
+.context>ul>li>a>div>p{
+    margin-top: 0.2rem;
+}
+.context>ul>li>a>div>span{
+    display: inline-block;
+    margin-top: 0.2rem;
+    color: #999;
+}
